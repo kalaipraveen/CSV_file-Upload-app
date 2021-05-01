@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  br
+  h3   Grootan CSV Upload App 
+  br
+  p
+   a(href='javascript:void(0)' class='btn btn-primary' id='importdata') Import CSV 
+   | &nbsp;&nbsp;&nbsp;
+   a(href='javascript:void(0)' class='btn btn-primary' id='fetchdata') Fetch Data
+  br  
+  p#message.alert.alert-success(style='display:none')
+  br
+  p No of records processed: 
+  p No of records failed:
+  br
+  table.table.table-bordered
+    thead
+        tr
+            th #
+            th Product ID
+            th Product Name
+            th Price
+            th Category
+            th Manufacturer
+    tbody#trdata
+        tr
+            td(colspan='6') Click on <strong>Import CSV</strong> button to import and save data to MongoDB. <br />Click on <strong>Fetch Data</strong> button to display data from database
