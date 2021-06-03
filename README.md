@@ -1,4 +1,4 @@
-# Grootan CSV Upload App
+# CSV Upload App
 
 Steps followed
 
@@ -12,7 +12,7 @@ Steps followed
 Note: 
 1. To Run MongoDB and on command line type command: 
     use dbproducts
-2. To launch Web Grootan CSV Upload application run the below command:
+2. To launch Web CSV Upload application run the below command:
      npm start
 
  
